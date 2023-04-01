@@ -1,0 +1,428 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.menu-fundo{
+    background-color: #333;
+    width: 100%;
+    height: 55px;
+    overflow: hidden;
+}
+.menu-mobile{
+  display: none;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    height: inherit;
+    width: 100%;
+    padding: 0 10px;  
+}
+.menu-logo,.logo2{
+  height: inherit;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.menu-centro{
+  flex: 8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.menu a {
+    text-decoration: none;
+    color:  #f9f9fa;
+    font-size: 16px;
+}
+.menu a:hover{
+  opacity: 0.6;
+}
+ .icon{
+    font-size: 22px; 
+ }
+ .icond{
+    font-size: 18px;
+ }
+ .menu .menu-logo{
+    flex: 1; 
+ } 
+ .menu .logo2 {
+    flex: 2;
+    gap: 20px;
+ }
+
+/* Parte 2*/
+
+.menu2-fundo{
+  width: 100%;
+ 
+}
+ .menu2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .dp-img{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 60%;
+    height: 85px;   
+ }
+
+.departamentos{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-dc{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ .dc{
+  width: 60%;
+  display: flex;
+  gap: 10px;
+ }
+ .dpdescricao{
+  width: 100%;
+  text-align: center;
+ }
+
+ .dc a {
+   text-decoration: none;
+   color: #333;
+   font-size: 15px;
+   width: 100%;
+ }
+
+ .dc a:hover{
+   color: rgba(0, 0, 255, 0.842);
+ }
+ .dc span {
+   color: #bf4800;
+   font-size: 12px;
+  text-align: center;
+ }
+ 
+ /*parte 3*/
+
+ .parte1 .titulo h1 {
+   font-size: 75px;
+   text-align: center;
+   margin-top: 5%;
+ }
+ .banner-macbook {
+   display: flex;
+   justify-content: space-around;
+ }
+
+ .banner-macbook .banner1 img{  
+   width: 500px;
+   height: 300px;
+   object-fit: cover;
+ }
+
+ .banner-macbook .banner2 img{
+   width: 500px;
+   height: 300px;
+   object-fit: cover;
+ }
+ .novo {
+   text-align: center;
+   font-weight: 500;
+   font-size: 18px;
+   color: #bf4800;
+   margin-bottom: -6%;
+   margin-top: 9.8%;
+ }
+
+
+.titulo-span{
+   font-size:28px;
+   color: black;
+   font-weight: 300;
+   text-align: center;
+   margin-top: 16%;
+   
+ }
+
+ .titulo-span2{
+   font-size: 28px;
+   color: black;
+   font-weight: 300;
+   text-align: center;  
+ }
+ .banner1 h2{
+   font-size: 48px;
+   margin-top: -6%;
+   text-align: center;
+   font-weight: 600;
+   color: black;
+ }
+ .banner2 h2{
+   font-size: 48px;
+   margin-top: -6%;
+   font-weight: 600;
+   text-align: center;
+   color: black; 
+ }
+
+ .banner1-descricao p {
+   text-align: center;
+   font-size: 25px;
+   font-weight: 500;
+   margin-top: -6%;
+ }
+ .banner2-descricao p {
+   text-align: center;
+   font-size: 25px;
+   font-weight: 500;
+   margin-top: -6%;
+ }
+
+ .banner1-descricao button,.banner2-descricao button,.texto-banner button{
+   background-color: #0071e3;
+   color: #fff;
+   border-radius: 30px;
+   padding: 8px 16px;
+   border: none;
+   font-size: 19px;
+   margin-bottom: 20px;
+   text-align: center;
+   cursor: pointer;
+ }
+ .banner1-descricao button{
+  margin-left: 25%;
+ }
+ .banner2-descricao button{
+   margin-left: 25%;
+  
+ }
+ .saiba-mais {
+   font-size: 19px;
+   margin-left: 5%;
+   color: #0071e3;
+   text-decoration: none;
+ }
+ .banner3-fundo{
+   background-image: url('..//imagens/accessories.jpg');
+   background-size: 100% cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 750px;
+   width: 100%;
+ }
+ .banner3 img {
+   width: 100%;
+   height: auto;
+   object-fit: cover;
+   margin-top: 3%;
+ }
+ .bannerparte3{
+   background-color:#f2f2f2 ;
+   width: 96%;
+   height: 650px;
+   margin-left: auto;
+   margin-right: auto; 
+ }
+
+.texto-banner h4 {
+   text-align: center;
+   font-size: 35px;
+   padding-top: 5%;
+}
+.texto-banner h2{
+   text-align: center;
+   max-width: 550px;
+   font-size: 59px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: -2.5%;
+   margin-bottom: 0;
+}
+.texto-banner button{
+   margin-bottom: 20px;
+   margin-left: 45%;
+   margin-top: 1%;
+}
+.texto-banner button:hover, .banner1-descricao button:hover,.banner2-descricao button:hover{
+  opacity: 0.8;
+}
+
+@media(max-width:1005px){
+  .banner-macbook .banner2 img,.banner-macbook .banner1 img{
+    width: auto;
+    height: 200px;
+  }
+  .menu a{
+    font-size: 14px;
+  }
+}
+@media(max-width:850px){
+  .menu a{
+    font-size: 14px;
+  }
+  .parte1 .titulo h1{
+    font-size: 55px;
+  }
+  .titulo-span,.titulo-span2,.banner1-descricao p,.banner2-descricao p{
+    font-size:20px ;
+  }
+  .banner2 h2,.banner1 h2{
+    font-size: 38px;
+  }
+  .saiba-mais{
+    font-size: 18px;
+  }
+  .texto-banner h2{
+    font-size: 45px;
+  }
+  .dp-img,.dc{
+    width: 90%;
+  }
+}
+@media(max-width:730px){
+  .menu-centro{
+    display: none;
+  }
+  .menu-mobile{
+    display: inline-block;
+  }
+  .menu-fundo{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+  }
+  .menu{
+    padding: 0;
+    width: 93%;
+  }
+  .menu .logo2{
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+  }
+  .menu .menu-logo{
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .departamentos img{
+    height: 45px;
+  }
+  .dp-img{
+    height: 70px;
+  }
+  .dc a{
+    font-size: 13px;
+  }
+  .parte1 .titulo h1{
+    font-size: 47px;
+  }
+  .banner-macbook .banner2 img, .banner-macbook .banner1 img{
+    height: 170px;
+  }
+  .novo{
+    font-size: 14px;
+  }
+  .banner2 h2, .banner1 h2{
+    font-size: 30px;
+  }
+  .titulo-span, .titulo-span2, .banner1-descricao p, .banner2-descricao p{
+    font-size: 15px;
+    padding: 2px;
+  }
+  .banner1-descricao button, .banner2-descricao button, .texto-banner button{
+    font-size: 17px;
+    padding: 7px 11px;
+  }
+  .saiba-mais{
+    font-size: 14px;
+  }
+  .texto-banner h4{
+    font-size: 29px;
+  }
+  .texto-banner h2{
+    font-size: 34px;
+    padding: 5px;
+  }
+  .bannerparte3{
+    height: auto;
+    padding-bottom: 30px;
+  }
+}
+@media(max-width:600px){
+  .banner-macbook{
+    flex-direction: column;
+  }
+  .banner1,.banner2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner1-descricao button,.banner2-descricao button{
+    margin: 0;
+  }
+  .saiba-mais{
+    font-size: 12px;
+  }
+  .banner1{
+    padding-bottom: 20px;
+  }
+  .banner2{
+    padding:30px;
+  }
+}
+@media(max-width:470px){
+  .dp-img{
+    height: 40px;
+  }
+  .departamentos img{
+    height: 38px;
+  }
+  .dc a{
+    font-size: 12px;
+  }
+  .dc span{
+    font-size: 11px;
+  }
+}
+@media(max-width:425px){
+  .dp-img,.dc{
+    width: 98%;
+  }
+  .texto-banner h2{
+    font-size: 28px;
+    padding: 0 12px;
+    padding-bottom: 5px;
+  }
+  .texto-banner h4{
+    font-size: 25px;
+  }
+  .texto-banner button{
+    margin-left: 39%;
+  }
+}
+@media(max-width:375px){
+  .menu2-fundo{
+    display: none;
+  }
+  .parte1 .titulo h1{
+    font-size: 35px;
+  }
+  
+}
